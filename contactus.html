@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made4You.contactus.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar__contactus">
+        <nav id="navbar">       
+                <div id="navbar__logo">
+                    <img 
+                        src="./assets/our-official-logo.png"
+                        alt="logo"
+                        id="logo"
+                    />
+                </div>      
+            <div id="navbar__items">
+                <div id="navbar__Home" class="button__design">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div id="navbar__service" class="button__design">
+                    <a href="services.html">Services</a>
+                </div>
+                <div id="navbar__aboutus" class="button__design">
+                    <a href="contactus.html">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="contactus__details">
+    <h1> Contact us:</h1><br>
+    <h2>Thanks for taking time to fill this form</h2>
+    <div id="form__div">
+        <form>
+            <label>
+                Name:<br>
+                <input 
+                    type="text" 
+                    placeholder="eg.jai" 
+                    name="username" 
+                    class="form__alignment"
+                    required
+                />
+            </label><br>
+            <br>
+            
+            <label>
+                email:<br>
+                <input 
+                    type="email" 
+                    placeholder="eg.jai@gmail.com" 
+                    name="email" 
+                    class="form__alignment"
+                    required
+                />
+            </label><br>
+            <br> 
+            <label>
+                Password:<br>
+                <input 
+                    type="password" 
+                    placeholder="***************" 
+                    minlength="8" 
+                    maxlength="12" 
+                    id="show"
+                    class="form__alignment"
+                    required
+                /><br>
+                <input 
+                    type="checkbox" 
+                    onclick="myFunction()" 
+                />Show Password
+            </label><br>
+            <br> 
+            <label>
+                Date:<br>
+                <input 
+                    type="date" 
+                    name="date"
+                    class="form__alignment"
+                    required
+                />
+            </label><br>
+            <br> 
+            <label>
+                Phone Number:<br>
+                <input  
+                    type="number" 
+                    placeholder="eg: 9595682558" 
+                    maxlength="10" 
+                    name="mobile"
+                    class="form__alignment"
+                    required
+                />
+            </label>
+            <br> <br> 
+            <label>
+                Description:<br>
+                <input
+                    type="text"
+                    placeholder="write your message here"
+                    maxlength="50"
+                    minlength="5"
+                    name="description"
+                    id="form__alignment1"
+                   
+                />
+            </label>
+            <br> <br> 
+            <label>
+                <input 
+                    type="submit" 
+                    placeholder="submit" 
+                    name="form"
+                    class="form__alignment" 
+                    id="form__alignment2"
+                />
+            </label>
+        </form>
+    </div>
+    <script src="index.js">
+        
+    </script>
+   </div>
+</body>
+</html>
